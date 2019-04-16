@@ -97,3 +97,18 @@ does this by using the above functions.
 classify as one of the numbers listed.
 o mimr provides feedback on the exact string required.
 • Be careful of input with no digits or one digit.
+
+Program Notes
+1. The valid_float is by far the hardest, tackle it last.
+2. Some useful string functions would be:
+a. s.find  return the index of the character you are looking for or string::npos if that character isn’t in
+the string
+b. s.substr  create a new string, a substring of the string. It takes one or two arguments:
+i. 1 arg  the start index where the substring begins to the end of the string
+ii. 2 arg  the start index where the substring begins and the length of the substring
+3. cctype functions are probably helpful
+a. remember these are character functions, not string functions. You can test an individual character,
+one element of a string, using them.
+4. you can test each function individually, that is very helpful
+5. range based for loops are convenient as well, though not strictly necessary
+6. you need to be able to index properly in a string as well
